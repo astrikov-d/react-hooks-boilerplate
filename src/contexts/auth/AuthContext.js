@@ -11,9 +11,7 @@ export class AuthContextProvider extends React.Component {
         email: undefined,
         username: undefined,
         first_name: undefined,
-        last_name: undefined,
-        organization: undefined,
-        user_type: undefined
+        last_name: undefined
     };
     state = user ? user : this.initialState;
 
