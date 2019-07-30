@@ -1,6 +1,6 @@
 {
-  "name": "qms.frontend",
-  "version": "0.1.0",
+  "name": "react-hooks-boilerplate",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "antd": "^3.19.1",
