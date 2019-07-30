@@ -41,9 +41,7 @@ export class AuthContextProvider extends React.Component {
                 email: data.email,
                 username: data.username,
                 first_name: data.first_name,
-                last_name: data.last_name,
-                organization: data.organization,
-                user_type: data.user_type
+                last_name: data.last_name
             });
         }).catch(error => {
             localStorage.removeItem('user');
